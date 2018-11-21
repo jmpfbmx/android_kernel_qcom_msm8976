@@ -169,5 +169,6 @@ struct sdhci_msm_host {
 	u32 ice_clk_rate;
 	bool enhanced_strobe;
 	bool tuning_in_progress;
+	struct device_attribute mmc_manual_gc_attr;
 };
 #endif /* __SDHCI_MSM_H__ */
